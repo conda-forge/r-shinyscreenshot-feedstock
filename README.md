@@ -1,11 +1,11 @@
-About r-shinyscreenshot
-=======================
+About r-shinyscreenshot-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinyscreenshot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/daattali/shinyscreenshot https://daattali.com/shiny/shinyscreenshot-demo/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shinyscreenshot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Capture screenshots in 'Shiny' applications. Screenshots can either be of the entire viewable page, or a specific section of the page. The captured image is automatically downloaded as a PNG image. Powered by the 'html2canvas' JavaScript library.
 
