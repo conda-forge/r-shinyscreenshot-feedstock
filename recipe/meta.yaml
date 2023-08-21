@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/shinyscreenshot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/shinyscreenshot/shinyscreenshot_{{ version }}.tar.gz
-  sha256: 63cef8a89e59dc00b9afe596c7042ef948e71e072ee1622404428e0c18177507
+  sha256: 08f54b8e8b3fcc73f451d0e113454f1b237a97fee7484f9f60ba69e8017341dd
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
